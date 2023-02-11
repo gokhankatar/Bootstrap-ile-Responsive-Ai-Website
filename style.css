@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+.resimslider {
+    height: 740px;
+}
+
+.navbar {
+    opacity: .8;
+    transition: all .7s linear;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    transition: all .7s linear;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+color: lightseagreen;
+}
+
+.aboutus{
+    background-color: rgb(107, 104, 104);
+    color: #fff;
+}
+.ayrac{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color: #343a40;
+    position: relative;
+    top: -57px;
+    font-size: 40px;
+    border: 10px solid rgb(107, 104, 104);
+    background-color: rgb(107, 104, 104);
+}
+
+.team{
+    background-color: rgb(107, 104, 104);
+    color: #fff;
+}
+.card{
+    color: black;
+    transition: all .7s linear;
+    opacity: .7;
+}
+.card:hover{
+    opacity: 1;
+}
+
+.figure{
+    opacity: .6;
+    transition: all 1s linear;
+}
+.figure:hover{
+    opacity: 1;
+}
+
+.contact{
+    background-color: rgb(32, 30, 30);
+}
+.contact h2{
+    color: #fff;
+}
+.contact .ibeyaz{
+    background-color: rgb(32, 30, 30);
+    border: 10px solid rgb(32, 30, 30);
+}
+
+.form-group{
+    color: #fff;
+}
+.cbtn{
+    background-color: #fff !important;
+    transition: all .7s linear !important;
+}
+.cbtn:hover{
+    background-color: aqua !important;
+}
